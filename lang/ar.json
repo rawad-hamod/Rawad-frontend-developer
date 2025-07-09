@@ -1,0 +1,137 @@
+{
+  "title": "رواد | مطور واجهات أمامية",
+  "subtitle": "مرحباً بكم في معرض أعمالي, لنتشارك الأفكار والملاحظات ونتعاون سوية",
+  "nav_about": "عني",
+  "nav_skills": "المهارات",
+  "nav_projects": "المشاريع",
+  "nav_certificates": "الشهادات",
+  "nav_contact": "اتصل",
+  "about_title": "عني",
+  "about_desc": "طالب ماجستير في علوم الحاسوب، متخصص في تطوير واجهات المستخدم الأمامية. مبرمج شغوف، يتمتع بخبرة عملية في تطوير تطبيقات الويب التفاعلية باستخدام React.js. أُطوّر مهاراتي باستمرار من خلال دورات متخصصة على مواقع مثل كورسيرا، جامعًا بين النظرية الأكاديمية والتطبيق العملي."
+,
+  "contact_name": "الاسم",
+  "contact_email": "البريد الإلكتروني",
+  "contact_message": "الرسالة",
+  "contact_submit": "إرسال الرسالة",
+  
+ "skills": [
+  {
+    "name": "HTML5",
+    "icon": "fab fa-html5"
+  },
+  {
+    "name": "CSS3",
+    "icon": "fab fa-css3-alt"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "fab fa-js"
+  },
+  {
+    "name": "React",
+    "icon": "fab fa-react"
+  },
+  {
+    "name": "Git",
+    "icon": "fab fa-git-alt"
+  },
+  {
+    "name": "Responsive Design",
+    "icon": "fas fa-mobile-alt"
+  },
+  {
+    "name": "GitHub",
+    "icon": "fab fa-github"
+  },
+  {
+    "name": "Problem Solving",
+    "icon": "fas fa-lightbulb"
+  },
+  {
+     "name": "Redux",
+    "image": "assets/redux.png"
+  },
+  {
+    "name": "Material UI",
+    "image": "assets/MUI.png"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "fab fa-bootstrap"
+  }
+]
+,
+  
+  "projects": [
+    {
+      "name": "  موقع زواج مبارك(مشروع حقيقي) ",
+      "image_placeholder": "assets/zwajy.png",
+      "description": "تطبيق ويب تواصل اجتماعي حيث يمكن للمستخدم العثور على شريكه قمت باستخدام أكثر من 40APIs ",
+      "tools":"React.js , bootstrap ,axios , framer motion , formik ,yup",
+      "notes":"جرب بالإيميل وكلمة السر الأفتراضيتين rawad@gmail.com 12345678",
+      "code_url": "",
+      "demo_url": "https://test.zwajy.net/",
+      "demo_text": " زيارة"
+   
+    },
+    {
+      "name": "لوحة تحكم موقع زواج مبارك",
+      "image_placeholder": "assets/dashboard.png",
+      "description": "مشروع حقيقي لموقع زواج مبارك حيث يمكن للأدمن التحكم بمكونات الموقع و مراقبة طلبات وسلوكيات المستخدمين",
+      "tools":"React.js , MaterialUI ,axios",
+      "notes":"جرب باسم المستخدم وكلمة السر الأفتراضيتين Admin admin1234",
+      "code_url": "",
+      "demo_url": "https://test.zwajy.net/dashboard",
+      "demo_text": " زيارة"
+   
+    },
+    {
+      "name": "(مشروع تدريبي)Rawact",
+      "image_placeholder": "assets/rawact.png",
+      "description":"قمت بتجميع ثلاثة تطبيقات مشهورة للتدرب على مفاهيم React.js ",
+      "tools":"React.js , JSX, CSS3",
+      "notes":"يمكنك لعب لعبة الذاكرة, حل أسئلة معلومات عامة متغيرة, كتابة مهامك اليومية",
+      "code_url": "https://github.com/rawad-hamod/rawact",
+      "demo_url": "https://rawad-hamod.github.io/rawact",
+      "demo_text": " زيارة",
+      "code_text":"الكود"
+   
+    },
+    {
+      "name": "(مشروع تدريبي)حساب العمر",
+      "image_placeholder": "assets/age-calculator.png",
+      "description":" ضمن تحديات frontend mentor ",
+      "tools":"Html ,CSS3 , JavaScript",
+      "notes":"يمكنك كتابة مواليدك وحساب عمرك بالسنوات والأشهر والأيام",
+      "code_url": "https://github.com/rawad-hamod/age-calculator",
+      "demo_url": "https://rawad-hamod.github.io/age-calculator/",
+      "demo_text": " زيارة",
+      "code_text":"الكود"
+   
+    }
+  ],
+  
+ "certificates": [
+  {
+    "name": "Introduction to Frontend development",
+    "image": "assets/certificates/introduction.jpeg",
+    "link": "https://coursera.org/share/77d8b45245a70c07931df3a9625a745c"
+  },
+  {
+    "name": "Programming with JavaScript",
+    "image": "assets/certificates/js.jpeg",
+    "link": "https://coursera.org/share/4e6c6bf6893e79630ec4d4ae5adfb77b"
+  },
+  {
+    "name": "Version Control",
+    "image": "assets/certificates/version-control.jpeg",
+    "link": "https://coursera.org/share/14d3f69cffa31a1d4441bd2200dff1fd"
+  },
+  {
+    "name": "HTML and CSS in depth",
+    "image": "assets/certificates/html-css.jpeg",
+    "link": "https://coursera.org/share/e2933aa7f01f416cc8ac5ffafe9a171c"
+  }
+]
+
+}

@@ -1,0 +1,135 @@
+{
+  "title": "hello I am Rawad | Front-End Developer",
+  "subtitle": "Welcome to my portfolio, hope we share ideas,notes and collaborate together",
+  "nav_about": "About",
+  "nav_skills": "Skills",
+  "nav_projects": "Projects",
+  "nav_certificates": "Certificates",
+  "nav_contact": "Contact",
+  "about_title": "About Me",
+  "about_desc": "Master's degree student in Computer Science, specializing in Frontend Development. Passionate programmer with hands-on experience in developing interactive web applications using React.js. Continuously improving my skills by taking specialized courses on sites such as Coursera, merging academic theory with real-world practice.",
+  "contact_name": "Name",
+  "contact_email": "Email",
+  "contact_message": "Message",
+  "contact_submit": "Send Message",
+  
+ "skills": [
+  {
+    "name": "HTML5",
+    "icon": "fab fa-html5"
+  },
+  {
+    "name": "CSS3",
+    "icon": "fab fa-css3-alt"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "fab fa-js"
+  },
+  {
+    "name": "React",
+    "icon": "fab fa-react"
+  },
+  {
+    "name": "Git",
+    "icon": "fab fa-git-alt"
+  },
+  {
+    "name": "Responsive Design",
+    "icon": "fas fa-mobile-alt"
+  },
+  {
+    "name": "GitHub",
+    "icon": "fab fa-github"
+  },
+  {
+    "name": "Problem Solving",
+    "icon": "fas fa-lightbulb"
+  },
+  {
+    "name": "Redux",
+    "image": "assets/redux.png"
+  },
+  {
+    "name": "Material UI",
+    "image": "assets/MUI.png"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "fab fa-bootstrap"
+  }
+]
+,
+  
+  "projects": [
+    {
+      "name": "zwajy(real project)",
+      "image_placeholder": "assets/zwajy.png",
+      "description": "A social media web app where the user can find his/her partner, I was responsible to covert it to React.js and add new features, performance optimization I used more than 40 APIs",
+      "tools":"React.js , bootstrap ,axios , framer motion , formik , yup",
+      "notes":"try with virtual email and password:rawad@gmail.com 12345678",
+      "demo_url": "https://test.zwajy.net/",
+     
+      "demo_text": "View Demo"
+      
+    },
+    {
+      "name": "zwajy dashboard (real project)",
+      "image_placeholder": "assets/dashboard.png",
+      "description": "An admin dashboard for zwajy web app to control the site content and hanle user requests",
+      "tools":"React.js , MaterialUI ,axios ",
+      "notes":"try with virtual user name and password: Admin admin1234",
+      "demo_url": "https://test.zwajy.net/dashboard",
+     
+      "demo_text": "View Demo"
+      
+    },
+    {
+      "name": "Rawact",
+      "image_placeholder": "assets/rawact.png",
+      "description":"Combination of three projects to practice React.js concepts",
+      "tools":"React.js , JSX, CSS3",
+      "notes":"You can play memory game, answer general information questions, and write your to-do list",
+      "code_url": "https://github.com/rawad-hamod/rawact",
+      "demo_url": "https://rawad-hamod.github.io/rawact",
+      "demo_text": "View Demo",
+      "code_text":"Source Code"
+   
+    },
+    {
+      "name": "Age Calculator",
+      "image_placeholder": "assets/age-calculator.png",
+      "description":" frontend mentor challenge ",
+      "tools":"Html ,CSS3 , JavaScript",
+      "notes":"Just fill the field with your birthdate and git your age with years, months and days",
+      "code_url": "https://github.com/rawad-hamod/age-calculator",
+      "demo_url": "https://rawad-hamod.github.io/age-calculator/",
+      "demo_text": "View Demo",
+      "code_text":"Source Code"
+   
+    }
+  ],
+  
+ "certificates": [
+  {
+    "name": "Introduction to Frontend development",
+    "image": "assets/certificates/introduction.jpeg",
+    "link": "https://coursera.org/share/77d8b45245a70c07931df3a9625a745c"
+  },
+  {
+    "name": "Programming with JavaScript",
+    "image": "assets/certificates/js.jpeg",
+    "link": "https://coursera.org/share/4e6c6bf6893e79630ec4d4ae5adfb77b"
+  },
+  {
+    "name": "Version Control",
+    "image": "assets/certificates/version-control.jpeg",
+    "link": "https://coursera.org/share/14d3f69cffa31a1d4441bd2200dff1fd"
+  },
+  {
+    "name": "HTML and CSS in depth",
+    "image": "assets/certificates/html-css.jpeg",
+    "link": "https://coursera.org/share/e2933aa7f01f416cc8ac5ffafe9a171c"
+  }
+]
+}

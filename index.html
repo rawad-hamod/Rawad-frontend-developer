@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta name="keywords" content="Rawad, Front-End Developer, Portfolio, HTML, CSS, JavaScript, React, Responsive Design, Web Developer, GitHub, Projects, UI Developer, zwajy, react,مطور ويب, رواد حمود, واجهة أمامية, سوريا , لبنان " />
+ <meta name="description" content="Explore Rawad's front-end developer portfolio – real-world projects, clean code, responsive designs, and a passion for modern web development." /> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+ <meta property="og:type" content="website" />
+<meta property="og:url" content="https://yourdomain.com/" />
+<meta property="og:title" content="Rawad | Front-End Developer Portfolio" />
+<meta property="og:description" content="Modern front-end portfolio showcasing real and training projects, interactive UI, and clean code by Rawad." />
+<meta property="og:image" content="https://yourdomain.com/assets/og-image.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Rawad | Front-End Developer</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#hero"> <img src="assets/logo.svg" alt="Rawad Logo" style="height: 80px;" /></a>
+  
+</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" data-i18n="nav_about">About</a></li>
+        <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+        <li><a href="#certificates" data-i18n="nav_certificates">Certificates</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="lang-toggle">العربية</button>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+      </div>
+    </div>
+    
+  </nav>
+
+ <header class="site-header" id="hero">
+  <div class="container">
+    <h1 id="title">Rawad <span>| Front-End Developer</span></h1>
+    <p id="subtitle">Building responsive and user-friendly websites</p>
+  </div>
+</header>
+
+  <section id="about" class="container">
+    <h2 id="about-title">About Me</h2>
+    <p id="about-desc">I'm a passionate front-end developer with expertise in creating modern, responsive web applications.</p>
+  </section>
+
+  <section id="skills" class="container">
+    <h2 data-i18n="nav_skills">Skills</h2>
+    <div class="skills-grid" id="skills-container"></div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2 data-i18n="nav_projects">Projects</h2>
+    <div class="projects-grid" id="projects-container"></div>
+  </section>
+
+  <section id="certificates" class="container">
+    <h2 data-i18n="nav_certificates">Certificates</h2>
+    <div class="certificates-grid" id="certificates-container"></div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 data-i18n="nav_contact">Contact <i class="fas fa-code"></i></h2>
+    <div class="contact-form">
+      <div class="form-group">
+        <label for="name" data-i18n="contact_name">Name</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email" data-i18n="contact_email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message" data-i18n="contact_message">Message</label>
+        <textarea id="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn" data-i18n="contact_submit">Send Message</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="container footer-content">
+    <!-- Logo Section -->
+    <div class="footer-logo">
+      <img src="assets/logo.svg" alt="Rawad Logo" />
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copy">
+      <p>&copy; <span id="year"></span> Rawad</p>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="https://github.com/rawad-hamod" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/rawad-hamod" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.frontendmentor.io/profile/rawad-hamod" target="_blank" aria-label="Frontend Mentor">
+        <i class="fas fa-code"></i>
+      </a>
+      <a href="https://www.coursera.org/user/9a9d8e82aa74a2ec36d4f96ce4745dd4" target="_blank" aria-label="Coursera">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+      <a href="https://wa.me/96179153549" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
